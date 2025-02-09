@@ -99,6 +99,10 @@ let
       "Move up"
       { expr = true; })
 
+    # Escape using 'fd'
+    (mkKeymap [ "!" "" ] "fd" "<Esc>" "Escape using fd")
+    (mkKeymap "t" "fd" "<C-\\><C-n>" "Exit terminal mode with fd")
+
   ];
 in
 {
