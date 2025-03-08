@@ -16,9 +16,6 @@ in {
     };
     mkdnflow = {
       enable = true;
-      lazyLoad.settings = {
-        ft = "markdown";
-      };
     };
   };
 
