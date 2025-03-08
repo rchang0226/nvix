@@ -14,6 +14,12 @@ in {
         cmd = "Glow";
       };
     };
+    mkdnflow = {
+      enable = true;
+      lazyLoad.settings = {
+        ft = "markdown";
+      };
+    };
   };
 
   # TODO: Add mkdnflow
