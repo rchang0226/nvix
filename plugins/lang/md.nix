@@ -48,9 +48,6 @@ in
         cmd = "Glow";
       };
     };
-    mkdnflow = {
-      enable = true;
-    };
   };
 
   autoCmd = [
